@@ -9,7 +9,7 @@ import App from './App';
       element: <App/>
     },
     {
-        path: "esw/jsf/secure/shared/common/QRCode.xhtml",
+        path: "online/check_coo_qrstatus/:id",
         element: <App />,
     },
   ]);
