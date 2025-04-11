@@ -1,7 +1,7 @@
 function Header({onChange}){
     return <div className="header-container container">
       <div className="header ">
-        <div className="logo "><img src="/assets/logo-en.png"/></div>
+        <div className="logo "><a href="https://eservices.chamberoman.om/"><img src="/assets/logo-en.png"/></a></div>
         <div className="nav-bar">
           <div> 
             <a href="https://omanchamber.om/">omanchamber.om</a>
@@ -20,7 +20,7 @@ function Header({onChange}){
 function HeaderArab({onChange}){
   return <div className="header-container container _ar">
   <div className="header">
-    <div className="logo "><img src="/assets/logo-en.png"/></div>
+    <div className="logo "><a href="https://eservices.chamberoman.om/"><img src="/assets/logo-en.png"/></a></div>
     <div className="nav-bar">
       <div><a href="https://eservices.chamberoman.om/login">دخول</a></div>
       <div className="split"></div>
