@@ -10,7 +10,7 @@ function PDFViewDefault(){
     const searchParams = new URLSearchParams(location.search);
     // const file = searchParams.get('qr') || 'PC';
     const file = '292025965189-dup';
-    const file2 = 'PL-BL No.AL-00325-B-BUTANE- NEW';
+    const file2 = '292025965189';
 
     return <div className="">
         <div className="page-title">Certificate status</div>
@@ -28,8 +28,8 @@ function PDFViewDefaultArab(){
 
     const searchParams = new URLSearchParams(location.search);
     // const file = searchParams.get('qr') || 'PC';
-    const file = 'MAR292025984175';
-    const file2 = 'PL-BL No.AL-00325-B-BUTANE- NEW';
+    const file = '292025965189-dup';
+    const file2 = '292025965189';
 
     return <div className="direction _ar">
         <div className="page-title text _arab">حالة الشهادة</div>
