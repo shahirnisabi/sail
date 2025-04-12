@@ -1,16 +1,14 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 
 const BASE_PATH = '/assets/'
 
 function PDFViewDefault(){
-    const [toggled, setToggle] = useState(true);
-    const location = useLocation();
+    const params = useParams();
 
-    const searchParams = new URLSearchParams(location.search);
-    // const file = searchParams.get('qr') || 'PC';
-    const file = '292025965189-dup';
-    const file2 = '292025965189';
+    const id = params.id;
+    const file = id+'-dup';
+    const file2 = id;
 
     return <div className="">
         <div className="page-title">Certificate status</div>
@@ -23,13 +21,11 @@ function PDFViewDefault(){
 }
 
 function PDFViewDefaultArab(){
-    const [toggled, setToggle] = useState(true);
-    const location = useLocation();
+    const params = useParams();
 
-    const searchParams = new URLSearchParams(location.search);
-    // const file = searchParams.get('qr') || 'PC';
-    const file = '292025965189-dup';
-    const file2 = '292025965189';
+    const id = params.id;
+    const file = id+'-dup';
+    const file2 = id;
 
     return <div className="direction _ar">
         <div className="page-title text _arab">حالة الشهادة</div>
