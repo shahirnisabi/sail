@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
-const BASE_PATH = '/assets/'
+const BASE_PATH = 'https://generate.gov-om.co/saved-certificates/'
 
 function PDFViewDefault(){
     const params = useParams();
 
     const id = params.id;
-    const file = id+'-dup';
-    const file2 = id;
+    const file = id+'_2';
+    const file2 = id+'_3';
 
     return <div className="">
         <div className="page-title">Certificate status</div>
