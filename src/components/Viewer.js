@@ -13,9 +13,9 @@ function PDFViewDefault(){
     return <div className="">
         <div className="page-title">Certificate status</div>
         <div className="pdf-view-container">
-        <iframe src={BASE_PATH+file+'.pdf#view=FitH'} className="pdf-viewer"/>
+        <iframe src={BASE_PATH+file+'.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0'} className="pdf-viewer"/>
         <div className="page-subheading">Package List</div>
-        <iframe src={BASE_PATH+file2+'.pdf#view=FitH'} className="pdf-viewer _2"/>
+        <iframe src={BASE_PATH+file2+'.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0'} className="pdf-viewer _2"/>
         </div>
     </div>;
 }
@@ -30,10 +30,10 @@ function PDFViewDefaultArab(){
     return <div className="direction _ar">
         <div className="page-title text _arab">حالة الشهادة</div>
         <div className="pdf-view-container">
-        <iframe src={BASE_PATH+file+'.pdf#view=FitH'} className="pdf-viewer"/>
+        <iframe src={BASE_PATH+file+'.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0'} className="pdf-viewer"/>
         <div className="page-subheading text _arab">
 قائمة الحزمة</div>
-        <iframe src={BASE_PATH+file2+'.pdf#view=FitH'} className="pdf-viewer _2"/>
+        <iframe src={BASE_PATH+file2+'.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0'} className="pdf-viewer _2"/>
         </div>
     </div>;
 }
