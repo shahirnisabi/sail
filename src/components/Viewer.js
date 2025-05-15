@@ -37,5 +37,4 @@ function PDFViewDefaultArab(){
         </div>
     </div>;
 }
-
 export default {PDFViewDefault, PDFViewDefaultArab};
