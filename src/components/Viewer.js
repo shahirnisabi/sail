@@ -19,11 +19,11 @@ function PDFViewDefault() {
         document.getElementById("iframePckList").onload = function () {
             console.log("Iframe has loaded!");
 
-            const iframe = document.getElementById("iframePckList");
-            if (iframe && iframe.contentWindow && iframe.contentWindow.document) {
-                const height = iframe.contentWindow.document.body.scrollHeight;
-                iframe.style.height = height + "px"; // Adjust iframe height dynamically
-            }
+            // const iframe = document.getElementById("iframePckList");
+            // if (iframe && iframe.contentWindow && iframe.contentWindow.document) {
+            //     const height = iframe.contentWindow.document.body.scrollHeight;
+            //     iframe.style.height = height + "px"; // Adjust iframe height dynamically
+            // }
 
         };
     }
